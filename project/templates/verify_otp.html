@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+    <aside class="col-sm-5">
+        <div class="card">
+            <article class="card-body">
+                <h4 class="card-title mb-4 mt-1 text-center">Verify OTP</h4>
+                <p>We have sent a 6-digit verification code to your email. Please enter it below.</p>
+                <form method="POST" action="{{ url_for('auth.verify_otp') }}">
+
+                    <div class="form-group">
+                        <input name="otp" class="form-control" placeholder="123456" type="text" autofocus="" required>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block">Verify</button>
+                </form>
+            </article>
+        </div>
+    </aside>
+</div>
+{% endblock %}

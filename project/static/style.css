@@ -1,0 +1,80 @@
+
+body{
+  background-color: #e4fcf1 ;
+}
+
+.navbar{
+  background-color: #f9fcff;
+
+}
+
+.nav-link{
+  color: rgb(70, 180, 143) ;
+}
+
+.container-fluid{
+  padding-top: 130px;
+}
+
+.index{
+  padding-top: 150px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.checkbox {
+  font-size: small;
+}
+
+.check1{
+  width: 10px;
+  height: 10px;
+}
+
+.col-md-12{
+  padding-top: 10px;
+}
+
+.display-6{
+  padding-top: 150px; 
+}
+
+.card{
+  background-color: #f4fdf9;
+}
+
+.btn-primary{
+  background-color: #46b48f;
+  border: none;
+}
+
+.btn-info{
+  background-color: #46b48f;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #0f7551;
+}
+
+.btn-info:hover{
+  background-color: #0f7551;
+}
+
+.text-center{
+  color: #0f7551;
+}
+
+.lead{
+  color: #0f7551;
+}
+
+.form-control:focus {
+  border-color: #46b48f;
+  box-shadow: 0 0 0 0.2rem rgba(70, 180, 143, 0.25);
+}

@@ -1,0 +1,14 @@
+{% block content %}
+
+<h2>Hi {{ user.username }}!</h2>
+<p>To reset your password, please use the following One-Time Password (OTP):</p>
+
+<div
+    style="background-color:#f8f9fa; border: 1px solid #ddd; padding: 15px; text-align: center; font-size: 24px; letter-spacing: 5px; font-weight: bold; width: fit-content; margin: 20px 0;">
+    {{ otp }}
+</div>
+
+<p><strong>Please note:</strong> This code will expire in 10 minutes. If you did not request a password reset, please
+    ignore this email.</p>
+
+{% endblock %}
