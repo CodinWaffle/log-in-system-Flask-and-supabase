@@ -1,6 +1,7 @@
 # **Just A Simple Login System using (Python Flask and Supabase)**
-
+  
 🔗 Live Demo: https://log-in-system-flask-and-supabase.onrender.com/
+Just wait for 30 seconds to start because my web hosting are free tier and im broke LoL
 
 Notes: this web Hosting are only 0.1 CPU and 512 MB of RAM so expect a crashing or internal server error for now im optimizing the "Auth" and "Email SMTP" so Im still working on that
 
