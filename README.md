@@ -5,9 +5,6 @@ Just wait for 30 seconds to start because my web hosting are free tier and im br
 
 Notes: this web Hosting are only 0.1 CPU and 512 MB of RAM so expect a crashing or internal server error for now im optimizing the "Auth" and "Email SMTP" so Im still working on that
 
----------------------------------------
-I created this so Anyone can make there own project and deployed it to the internet using Supabase and Flask Dance for  educational purposes
-
 <img width="1859" height="847" alt="Image" src="https://github.com/user-attachments/assets/6cfc5980-d22a-4cb3-b7a0-743530f70a0b" />
 <img width="1860" height="846" alt="Image" src="https://github.com/user-attachments/assets/734dd7d2-76a6-4ef4-8eff-f49240dcfc6e" />
 <img width="1860" height="847" alt="Image" src="https://github.com/user-attachments/assets/3188eb6a-e8ac-49f9-9936-0144714d2384" />
