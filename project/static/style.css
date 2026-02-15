@@ -11,6 +11,9 @@ body{
 .nav-link{
   color: rgb(70, 180, 143) ;
 }
+.nav-link:hover{
+  color:#00462c;
+}
 
 .container-fluid{
   padding-top: 130px;
@@ -77,4 +80,11 @@ body{
 .form-control:focus {
   border-color: #46b48f;
   box-shadow: 0 0 0 0.2rem rgba(70, 180, 143, 0.25);
+}
+.small{
+  color: #0f7551;
+}
+.small:hover{
+  color:#00462c;
+  text-decoration: none;
 }
