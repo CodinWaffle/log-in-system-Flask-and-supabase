@@ -129,6 +129,23 @@ def signup_post():
   username = request.form.get('username')
   email = request.form.get('email')
   password = request.form.get('password')
+  confirm_password = request.form.get('confirm_password')
+
+  if not username or not email or not password or not confirm_password:
+     flash('Please fill out all fields', 'warning')
+     return redirect(url_for('auth.signup'))
+  
+  if '@' not in email or '.' not in email:
+     flash('Please Enter a valid email address', 'warning')
+     return redirect(url_for('auth.signup'))
+  
+  if password != confirm_password:
+     flash('Passwords not matching', 'warning')
+     return redirect(url_for('auth.signup'))
+  
+  if len(password) < 6:
+     flash('Password must be at least 6 characters long', "warning")
+     return redirect(url_for('auth.signup'))
 
   user = User.query.filter_by(email = email).first() 
 
