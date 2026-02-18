@@ -143,10 +143,13 @@ def signup_post():
      flash('Passwords not matching', 'warning')
      return redirect(url_for('auth.signup'))
   
-  if len(password) < 6:
-     flash('Password must be at least 6 characters long', "warning")
+  elif not any(char.isdigit() for char in password):
+     flash('Password must contain at least one digit', "warning")
      return redirect(url_for('auth.signup'))
-
+  elif not any(char.isupper() for char in password):
+     flash('Password must contain at least one uppercase letter', "warning")
+     return redirect(url_for('auth.signup'))
+  
   user = User.query.filter_by(email = email).first() 
 
   if user:
