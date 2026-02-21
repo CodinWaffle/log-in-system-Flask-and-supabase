@@ -88,3 +88,26 @@ body{
   color:#00462c;
   text-decoration: none;
 }
+
+.site-alert-wrapper {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  padding: 0 12px;
+  pointer-events: none;
+}
+
+.site-alert{
+  pointer-events: auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}

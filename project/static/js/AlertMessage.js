@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     alerts.forEach(function (alertElement) {
         setTimeout(function () {
-            alertElement.style.transition = 'opacity 0.5s ease, height 0.5s ease, margin 0.5s ease, padding 0.5s ease';
             alertElement.style.opacity = '0';
             alertElement.style.height = '0';
             alertElement.style.margin = '0';
